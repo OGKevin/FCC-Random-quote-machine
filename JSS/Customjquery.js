@@ -4,7 +4,7 @@ var jsonQuotes, i = 0
 		$.ajax({
 			'async': false
 			, 'global': false
-			, 'url': "https://github.com/OGKevin/FCC-Random-quote-machine/blob/master/JSON/HEXcolors.json"
+			, 'url': "./JSON/HEXColors.json"
 			, 'dataType': "json"
 			, 'success': function (data) {
 				json = data;
