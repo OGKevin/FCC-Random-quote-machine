@@ -1,0 +1,25 @@
+{
+  "name": "random quote machine",
+  "authors": [
+    "OGKevin <Kevinhellemun@icloud.com>"
+  ],
+  "description": "FCC project",
+  "main": "./index.html",
+  "keywords": [
+    "FCC",
+    "project"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/OGKevin",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower-components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,0 +1,51 @@
+#titel {
+	font-family: monospace;
+	margin-bottom: 30px;
+}
+
+#wholePage {
+	text-align: center;
+	margin: 200 auto;
+	align-self: center;
+	width: 500;
+	background-color: antiquewhite;
+	border-radius: 10px;
+}
+
+#body {
+	background-color: aqua;
+}
+
+button {
+	border-radius: 10px;
+	font-size: 17px;
+	background-color: antiquewhite;
+	border: solid;
+	padding: 9;
+	margin: 5;
+}
+
+#paragraph {
+	width: 500px;
+	height: 100px;
+	font-family: monospace;
+	font-style: italic;
+	font-size: 14px;
+	margin: auto;
+	color: ;
+}
+
+.mainBox {
+	display: flex;
+	justify-content: center;
+}
+
+#quoteBtn {
+	background-color: aqua;
+	color: white;
+}
+
+#tweet {
+	background-color: aqua;
+	color: white;
+}
