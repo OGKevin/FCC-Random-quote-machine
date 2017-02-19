@@ -4,7 +4,7 @@ var jsonQuotes, i = 0
 		$.ajax({
 			'async': false
 			, 'global': false
-			, 'url': "./JSON/HEXColors.json"
+			, 'url': "/JSON/HEXColors.json"
 			, 'dataType': "json"
 			, 'success': function (data) {
 				json = data;
