@@ -15,7 +15,7 @@ $.getJSON('./JSON/quotes1.json', {
         $("#twitterBtn").attr('href', "https://twitter.com/intent/tweet?text=" + jsonQuotes[i].quote + " --" + jsonQuotes[i].name);
 
         $.ajax({
-                url: './JSON/HEXColors.json',
+                url: 'https://cdn.rawgit.com/OGKevin/FCC-Random-quote-machine/86c865c3/JSON/HEXcolors.json',
                 dataType: 'json',
             })
             .done(function(data) {
